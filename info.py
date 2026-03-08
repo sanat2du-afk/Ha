@@ -86,7 +86,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'nm_files')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', '')
 UPDATES_LINK = environ.get('UPDATES_LINK', '')
-FILMS_LINK = environ.get('FILMS_LINK', '')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Mrs_movies_request')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HA_Bots")
 
