@@ -22,7 +22,7 @@ from database.users_chats_db import db
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uvloop.install()
+# uvloop removed
 
 class Bot(Client):
     def __init__(self):
