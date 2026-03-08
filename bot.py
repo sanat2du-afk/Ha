@@ -10,7 +10,6 @@ logger = logging.getLogger(__name__)
 import os
 import time
 import asyncio
-import uvloop
 from hydrogram import types
 from hydrogram import Client
 from hydrogram.errors import FloodWait
